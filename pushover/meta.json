@@ -1,0 +1,14 @@
+{
+    "title": "Pushover",
+    "tagline": "Send notifictions via Pushover.",
+    "icon": "pushover.png",
+    "stability": "consumer",
+    "offline": false,
+    "technologies": [
+        "cloud"
+    ],
+    "categories": [
+        "online-service",
+        "notification"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "displayName": "Pushover",
+    "name": "Pushover",
+    "id": "fc1e7103-5940-4d74-8041-7b1a03a608d3",
+    "vendors": [
+        {
+            "displayName": "Pushover",
+            "name": "pushover",
+            "id": "480d6d08-50eb-4383-bfdd-2fd41aa3aad7",
+            "thingClasses": [
+                {
+                    "id": "72bf382e-cf0f-4dd5-b83e-3d27e7595b63",
+                    "name": "pushNotification",
+                    "displayName": "Push Notification",
+                    "createMethods": ["user"],
+                    "interfaces": ["notifications"],
+                    "paramTypes": [
+                        {
+                            "id": "968b585a-ee20-4339-9c6d-e3e473c967a0",
+                            "name": "appToken",
+                            "displayName": "Application Token",
+                            "type": "QString"
+                        },
+                        {
+                            "id": "c0129814-9f76-4679-a9ba-58517b177a49",
+                            "name": "userToken",
+                            "displayName": "User or Group Token",
+                            "type": "QString"
+                        }
+                    ],
+                    "actionTypes": [
+                        {
+                            "id": "eba35886-a054-492d-951b-6992b985b0c0",
+                            "name": "notify",
+                            "displayName": "notify",
+                            "paramTypes": [
+                                {
+                                    "id": "5b924e30-f640-4f46-949c-9681b53297e1",
+                                    "name": "title",
+                                    "displayName": "title",
+                                    "type": "QString",
+                                    "inputType": "TextLine",
+                                    "defaultValue": ""
+                                },
+                                {
+                                    "id": "6c53f892-5ac3-4792-8847-ac61451b2090",
+                                    "name": "body",
+                                    "displayName": "body",
+                                    "type": "QString",
+                                    "inputType": "TextArea",
+                                    "defaultValue": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

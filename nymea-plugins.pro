@@ -55,6 +55,7 @@ PLUGIN_DIRS = \
     powerfox            \
     pushbullet          \
     pushnotifications   \
+    pushover            \
     reversessh          \
     senic               \
     serialportcommander \
